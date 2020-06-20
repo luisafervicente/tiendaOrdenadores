@@ -1,0 +1,17 @@
+{
+   "autoload": {
+        "psr-4": {
+            "Clases\\": "/var/www/LuisaFernadezPracticaTienda/Clases",
+             
+                "plantillas\\": "/var/www/LuisaFernadezPracticaTienda/Plantillas",
+            "configuracion\\": "/var/www/LuisaFernadezPracticaTienda/configuracion",
+            "plantillas_compiladas\\":"/var/www/LuisaFernadezPracticaTienda/plantillas_compiladas"
+        }
+    },
+    "require": {
+        "smarty/smarty": "^3.1",
+        "dompdf/dompdf": "^0.8"
+        
+    }
+    
+}
